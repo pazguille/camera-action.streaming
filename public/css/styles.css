@@ -1,0 +1,49 @@
+body {
+	text-align: center;
+	max-width: none;
+	min-width: 0;
+}
+
+.container {
+	margin: 0 auto;
+	width: 400px;
+	height: 300px;
+	border: 5px solid #eee;
+	overflow: hidden;
+}
+video {
+	margin: 0;
+	float:left;
+}
+
+#video1 {
+	-webkit-filter: hue-rotate(10deg);
+}
+
+#video2 {
+	-webkit-filter: hue-rotate(90deg);
+}
+
+#video3 {
+	-webkit-filter: hue-rotate(180deg);
+}
+
+#video4 {
+	-webkit-filter: hue-rotate(270deg);
+}
+canvas {
+	-webkit-filter: sepia(100%) opacity(60%) grayscale(10%);
+	/*
+	grayscale(amount) percentage
+	sepia(amount) percentage
+	saturate(amount) number
+	hue-rotate(angle) deg
+	invert(amount) percentage
+	opacity(amount) percentage
+	brightness(amount) percentage
+	contrast(amount) percentage
+	blur(radius) px
+	drop-shadow(shadow) (10px -16px 30px purple)
+	custom (coming soon)
+	*/
+}
